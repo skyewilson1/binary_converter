@@ -6,11 +6,16 @@ from string import join
 
 z = "enter message here: "
 
+try: 
+    os.system("echo 'dont be a dick. this converter will change all letters into uppercase, it also does not recognize symbols and signs.'|espeak -s 120")
+except:
+    pass
 try:
     os.system("say Dont be a dick. this converter will change all letters into uppercase, it also does not recognize symbols and signs. enter message here.")
 
     print """Don't be a dick! This converter will change all letters into 
         uppercase. It also does not recognize symbols and signs."""
+
 except:
     print """Don't be a dick! This converter will change all letters into 
     uppercase only, it also does not recognize symbols and signs."""
