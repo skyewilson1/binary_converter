@@ -8,14 +8,14 @@ z = "enter message here: "
 
 try:
     os.system("say Dont be a dick. this converter will change all letters into uppercase,"
-              " it also does not recognize symbols and signs. enter message here.")
+              " it also does not recognize numbers, symbols and signs. enter message here.")
 
     print """Don't be a dick! This converter will change all letters into 
-        uppercase. It also does not recognize symbols and signs."""
+        uppercase. It also does not recognize numbers, symbols and signs."""
 
 except:
     print """Don't be a dick! This converter will change all letters into 
-    uppercase only, it also does not recognize symbols and signs."""
+    uppercase only, it also does not recognize numbers, symbols and signs."""
 
 bin_list = {"A": "01000001", "B": "01000010", "C": "01000011", "D": "01000100", "E": "01000101", "F": "01000110", 
             "G": "01000111", "H": "01001000", "I": "01001001", "J": "01001010", "K": "01001011", "L": "01001100", 
